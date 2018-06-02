@@ -208,11 +208,11 @@ const struct iwl_cfg iwl7260_2ac_cfg_high_temp = {
 	.ht_params = &iwl7000_ht_params,
 	.nvm_ver = IWL7260_NVM_VERSION,
 	.nvm_calib_ver = IWL7260_TX_POWER_VERSION,
-	.high_temp = true,
+	
 	.host_interrupt_operation_mode = true,
 	.lp_xtal_workaround = true,
 	.dccm_len = IWL7260_DCCM_LEN,
-	.thermal_params = &iwl7000_high_temp_tt_params,
+	
 };
 
 const struct iwl_cfg iwl7260_2n_cfg = {
